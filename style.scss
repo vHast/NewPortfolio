@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Hedvig Letters Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    .left-container {
+
+        width: 70vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 5%;
+        h1 {
+            font-size: 4rem;
+        }
+        h2 {
+            font-size: 2.7rem;
+            color: gray;
+        }
+
+        .socials-btn {
+            display: flex;
+            margin-top: 2rem;
+
+            a {
+                padding-left: 1rem;
+                font-size: 2rem;
+            }
+
+            #linked-in {
+                color: rgb(24, 206, 160);
+            }
+
+            #tryhackme {
+                color: rgb(96, 0, 151);
+            }
+        }
+
+        a {
+            padding-left: 0.9rem;
+            font-size: 1.3rem;
+            color: black;
+        }
+
+        article {
+            display: flex;
+            padding-top: 2rem;
+            width: 700px;
+            align-items: center;
+
+            .img-article {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-image: url(/img/network.jpg);
+                width: 400px;
+                height: 100px;
+                background-position: center;
+                background-size: cover;
+                border-radius: 10px;
+
+                a {
+                    background-color: rgba(26, 135, 224, 0.774);
+                    color: white;
+                    padding: 0.35rem;
+                    border-radius: 5px;
+                }
+            }
+
+            .content {
+
+                padding-left: 1rem;
+
+                h4 {
+                    font-size: 1.2rem;
+                }
+
+                p {
+                    padding-top: 0.5rem;
+                }
+           }
+        }
+    }
+
+    .right-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        width: 30vw;
+        height: 100vh;
+        background-color: rgb(15, 15, 15);
+        color: white;
+
+        h3 {
+            padding-top: 1rem;
+
+            .bluespan {
+                color: rgb(40, 140, 255);
+            }
+
+            .greenspan {
+                color: greenyellow;
+            }
+        }
+
+        h1 {
+            padding-top: 1.3rem;
+            align-self: center;
+        }
+    }
+}
